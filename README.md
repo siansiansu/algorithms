@@ -1,5 +1,5 @@
-Data Structures and Algorithms Study Guide Index
-================================================
+Data Structures and Algorithms Study Guide
+==========================================
 
 [![GitHub](https://img.shields.io/badge/GitHub-black?logo=github)](https://github.com/siansiansu/algorithms) [![hackmd-github-sync-badge](https://hackmd.io/6QUr70BVQBSFIv3xs4zjsQ/badge)](https://hackmd.io/6QUr70BVQBSFIv3xs4zjsQ)
 
