@@ -2,7 +2,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Algorithms",
+  title: "Bîn-hiân ê 演算法練習",
   tagline: "LeetCode 刷題筆記",
   favicon: "img/favicon.ico",
   trailingSlash: true,
@@ -25,7 +25,7 @@ const config = {
       ({
         docs: false,
         blog: {
-          blogTitle: 'Algorithms',
+          blogTitle: 'Bîn-hiân ê 演算法練習',
           blogDescription: 'LeetCode 刷題筆記',
           postsPerPage: 9,
           blogSidebarCount: 'ALL',
@@ -54,12 +54,21 @@ const config = {
         },
       ],
       navbar: {
-        title: "Algorithms",
+        title: "Bîn-hiân ê 演算法練習",
         items: [
           {
-            href: "https://blog.siansiansu.com",
-            label: "Blog",
+            href: "https://portaly.cc/siansiansu",
+            label: "作品集",
             position: "left",
+          },
+          {
+            href: "https://portaly.cc/siansiansu/support",
+            label: "贊助支持",
+            position: "left",
+          },
+          {
+            type: "search",
+            position: "right",
           },
         ],
       },
@@ -71,6 +80,12 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
         additionalLanguages: ['cpp', 'java', 'python'],
+      },
+      algolia: {
+        container: '#docsearch',
+        appId: 'LVW9I0MUJN',
+        apiKey: 'f1b135fa238af7f5625ca707adf275b6',
+        indexName: 'algorithms',
       },
     }),
 };
