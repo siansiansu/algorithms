@@ -7,7 +7,7 @@ const config = {
   favicon: "img/favicon.ico",
   trailingSlash: true,
 
-  url: "https://algorithms.siansiansu.com",
+  url: "https://iansoan.pages.dev",
   baseUrl: "/",
   organizationName: "siansiansu",
   projectName: "algorithms",
