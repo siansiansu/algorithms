@@ -81,12 +81,12 @@ const config = {
         darkTheme: prismThemes.dracula,
         additionalLanguages: ['cpp', 'java', 'python'],
       },
-      algolia: {
-        container: '#docsearch',
-        appId: 'LVW9I0MUJN',
-        apiKey: 'f1b135fa238af7f5625ca707adf275b6',
-        indexName: 'algorithms',
-      },
+      // algolia: {
+      //   container: '#docsearch',
+      //   appId: 'LVW9I0MUJN',
+      //   apiKey: 'f1b135fa238af7f5625ca707adf275b6',
+      //   indexName: 'algorithms',
+      // },
     }),
 };
 
