@@ -9,8 +9,6 @@ const config = {
 
   url: "https://iansoan.pages.dev",
   baseUrl: "/",
-  organizationName: "siansiansu",
-  projectName: "algorithms",
 
   onBrokenLinks: "throw",
   i18n: {
