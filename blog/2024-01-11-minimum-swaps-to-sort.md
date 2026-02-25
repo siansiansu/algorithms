@@ -132,5 +132,5 @@ int main()
 }
 ```
 
-- T: $O(n \cdot \log n)$
-- S: $O(n)$
+- T: $O(N \cdot \log N)$
+- S: $O(N)$

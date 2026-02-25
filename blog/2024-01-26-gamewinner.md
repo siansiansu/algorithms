@@ -4,16 +4,6 @@ title: "gameWinner"
 tags: [codility]
 ---
 
-Wendy 和 Bob 輪流拿掉 `w` 和 `b`，只能拿掉被同樣字母包圍的，回傳誰贏。
-
-給予一個陣列 `colors = "wwwbbbbwww"`
-
-1. Wendy 拿掉 `index = 1` 的 `w`，這時候 `colors = "wwbbbbwww"`
-2. Bob 拿掉 `index = 3` 的 `b`，這時候 `colors = "wwbbbwww"`
-3. Wendy 拿掉 `index = 6` 的 `w`，這時候 `colors = "wwbbbww"`
-4. Bob 拿掉 `index = 3` 的 `b`，這時候 `colors = "wwbbww"`
-5. Wendy 沒辦法拿了，所以 Bob 贏
-
 ```cpp
 #include <bits/stdc++.h>
 

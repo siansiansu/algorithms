@@ -91,7 +91,6 @@ string solution(string &S)
         helper(i);
     }
 
-
     // 由左到右走訪，如果遇到 0
     for (int i = 2; i < n - 2; ++i) {
         if (seen[i] == 0)

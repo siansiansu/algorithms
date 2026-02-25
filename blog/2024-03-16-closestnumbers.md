@@ -4,10 +4,6 @@ title: "closestNumbers"
 tags: [codility]
 ---
 
-給予一個陣列 `numbers`，輸出出兩者之差最小的組合。
-
-例如 `numbers = [6, 2, 4, 10]`，輸出：
-
 ```
 2 4
 4 6
@@ -20,7 +16,6 @@ using namespace std;
 
 string ltrim(const string &);
 string rtrim(const string &);
-
 
 /*
  * Complete the 'closestNumbers' function below.

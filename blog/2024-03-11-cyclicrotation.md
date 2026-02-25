@@ -27,5 +27,5 @@ vector<int> solution(vector<int> &A, int K)
 
 ```
 
-- T: $O(n)$
+- T: $O(N)$
 - S: $O(1)$

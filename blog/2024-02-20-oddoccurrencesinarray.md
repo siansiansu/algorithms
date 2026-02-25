@@ -25,5 +25,5 @@ int solution(vector<int> &A)
 
 ```
 
-- T: $O(n)$
-- S: $O(n)$
+- T: $O(N)$
+- S: $O(N)$
