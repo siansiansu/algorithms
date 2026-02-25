@@ -1,0 +1,6 @@
+# Algolia-Crawler-Verif: 0D646F1CC724C2B5
+
+User-agent: *
+Allow: /
+
+Sitemap: https://iansoan.pages.dev/sitemap.xml
