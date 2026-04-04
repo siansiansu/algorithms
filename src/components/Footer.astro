@@ -1,0 +1,33 @@
+---
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="footer-content">
+    <p class="copyright">Copyright &copy; {year} Bîn-hiân</p>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    margin-top: 3rem;
+  }
+
+  :global([data-theme='dark']) .site-footer {
+    border-top-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+    text-align: center;
+  }
+
+  .copyright {
+    font-size: 0.875rem;
+    color: var(--color-text-secondary);
+    margin: 0;
+  }
+</style>

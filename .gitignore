@@ -1,10 +1,12 @@
 # Dependencies
 node_modules/
 
-# Docusaurus
-.docusaurus/
-build/
-.cache-loader/
+# Production
+dist/
+
+# Generated files
+.astro
+.cache
 
 # macOS
 .DS_Store
